@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryDP
+namespace AbstractDesignFactory
 {
-    public abstract class CreditCardFactory
+    public interface IProduct
     {
-        public abstract ICreditCard GetCard(string cardType);
+        string GetProductDetails(string gender);
     }
 }

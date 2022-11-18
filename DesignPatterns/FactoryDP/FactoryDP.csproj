@@ -43,16 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteCreditCardFactory.cs" />
     <Compile Include="CreditCardFactory.cs" />
     <Compile Include="ICreditCard.cs" />
     <Compile Include="MoneyBackCard.cs" />
-    <Compile Include="MoneyBackFactory.cs" />
     <Compile Include="PlatinumCard.cs" />
-    <Compile Include="PlatinumFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TitaniumCard.cs" />
-    <Compile Include="TitaniumFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
